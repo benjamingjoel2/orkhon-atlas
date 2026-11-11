@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: packing
-heroAlt: "White gers on a snowy plain under a pale winter sky"
+heroAlt: "Snow and ice cover a riverbank lined with bare trees, with larch forest on the hillside behind"
 featured: false
 startHere: true
 plan:

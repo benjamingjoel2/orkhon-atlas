@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: first-timer
-heroAlt: "White gers standing on open green steppe under a wide blue sky"
+heroAlt: "A white canvas ger stands alone on dry, open steppe under a wide blue sky with scattered cloud"
 featured: true
 startHere: true
 plan:

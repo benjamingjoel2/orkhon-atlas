@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: horses
-heroAlt: "Riders on small Mongolian horses crossing green steppe below rolling hills"
+heroAlt: "Two riders, one in a yellow robe, ride across green steppe leading a spare horse, with grassy hills behind"
 featured: false
 startHere: false
 plan:

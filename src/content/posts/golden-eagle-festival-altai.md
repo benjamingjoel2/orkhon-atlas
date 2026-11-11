@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: eagle
-heroAlt: "A Kazakh eagle hunter on horseback holding a golden eagle on his gloved arm"
+heroAlt: "A Kazakh man in an embroidered skullcap sits beside a golden eagle perched on his gloved arm"
 featured: false
 startHere: false
 plan:

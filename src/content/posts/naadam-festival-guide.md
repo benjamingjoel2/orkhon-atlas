@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: naadam
-heroAlt: "Wrestlers in traditional costume competing on the grass at a Naadam festival"
+heroAlt: "Pairs of Mongolian wrestlers in traditional boots and vests grapple on a stadium field while robed attendants stand nearby"
 featured: false
 startHere: false
 plan:

@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: khovsgol
-heroAlt: "The clear blue water of Lake Khövsgöl with forested hills along the far shore"
+heroAlt: "Clear blue water of Lake Khövsgöl laps a stony shore with driftwood, with forested hills on the far side"
 featured: false
 startHere: false
 plan:

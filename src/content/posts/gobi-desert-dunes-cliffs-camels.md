@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: gobi
-heroAlt: "Bactrian camels resting in front of the long sand dunes of Khongoryn Els in the Gobi"
+heroAlt: "Tall pale sand dunes stretch across the desert floor beneath a range of bare grey mountains"
 featured: false
 startHere: false
 plan:

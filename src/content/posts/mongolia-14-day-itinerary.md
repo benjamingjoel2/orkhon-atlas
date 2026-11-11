@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: itinerary
-heroAlt: "A dirt track crossing open steppe towards distant hills under a wide sky"
+heroAlt: "Red-orange sandstone cliffs and eroded gullies drop away to a flat desert plain"
 featured: false
 startHere: true
 plan:

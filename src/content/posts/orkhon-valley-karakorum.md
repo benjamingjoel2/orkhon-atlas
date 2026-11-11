@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: orkhon
-heroAlt: "The white wall and stupas of Erdene Zuu monastery with temple roofs behind, on open grassland"
+heroAlt: "Brick temple gateways with curved tiled roofs and red-painted walls inside the grounds of Erdene Zuu Monastery"
 featured: false
 startHere: false
 plan:

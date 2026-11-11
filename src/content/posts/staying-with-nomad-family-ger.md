@@ -7,7 +7,7 @@ published: 2026-11-11
 updated: 2026-11-11
 author: desk
 hero: ger
-heroAlt: "A white felt ger with a wooden door stands on open grassland under a wide sky"
+heroAlt: "A woman feeds a stove inside a ger, with painted orange furniture, roof poles and a basket of firewood around her"
 featured: false
 startHere: false
 plan:
