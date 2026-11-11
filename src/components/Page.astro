@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+interface Props { title: string; description: string; path: string; updated?: string; section?: string }
+const { title, description, path, updated = '11 November 2026', section } = Astro.props;
+---
+<Base title={title} description={description} path={path} crumbs={[{ name: 'Home', path: '/' }, { name: title, path }]} section={section}>
+  <div class="wrap page">
+    <h1>{title}</h1>
+    <p class="meta">Last updated {updated}</p>
+    <div class="prose"><slot /></div>
+  </div>
+</Base>
+<style>.page { padding-bottom: 1rem; } .page .meta { margin-bottom: 1.5rem; }</style>

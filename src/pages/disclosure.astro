@@ -1,0 +1,16 @@
+---
+import Page from '../components/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Disclosure" description="How Orkhon Atlas is funded, how we link to operators and how paid content is labelled." path="/disclosure/">
+  <h2>Who we are</h2>
+  <p>Orkhon Atlas is published by <a href={SITE.publisher.url}>Tourground</a>. Tourground works with travel companies and earns money from paid plans sold to them. The operators we link to may be Tourground customers.</p>
+  <h2>"Plan this trip" boxes</h2>
+  <p>Every post ends with a "Plan this trip" box. It links to a local operator listed through the Tourground directory, including Steppe &amp; Sky (<a href="https://steppeandsky.tourground.com/">steppeandsky.tourground.com</a>), whose website runs on Tourground, and to the wider <a href={SITE.directoryUrl}>Tourground directory</a> so you can compare other operators. We choose which operator page to link because it matches the subject of the post. No operator pays to appear in these boxes.</p>
+  <h2>Advertisement features</h2>
+  <p>If a company pays for a post or a placement, it is labelled "Advertisement feature" at the top of the post and on every card that links to it, the sponsor is named, and links to the sponsor carry <code>rel="sponsored"</code>. At launch there are no advertisement features on Orkhon Atlas.</p>
+  <h2>Editorial independence</h2>
+  <p>Posts are written to be useful to travellers. Operators do not review or approve posts before publication, and nobody can pay to change what a post says about a place, a rule or a risk.</p>
+  <h2>Sources and citations</h2>
+  <p>Links in a post's list of sources are citations, not endorsements.</p>
+</Page>

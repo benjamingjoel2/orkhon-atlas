@@ -1,0 +1,15 @@
+---
+import { SITE } from '../lib/site';
+---
+<section class="box box-gold" aria-labelledby="newsletter-heading">
+  <h2 id="newsletter-heading">Get new stories by email</h2>
+  <p>One email when we publish something new about Mongolia. No adverts, and you can unsubscribe at any time. See our <a href="/privacy/">privacy policy</a>.</p>
+  <form class="newsletter" action={`mailto:${SITE.email}`} method="post" enctype="text/plain">
+    <input type="hidden" name="subject" value="Subscribe to Orkhon Atlas" />
+    <label for="newsletter-email">Email address</label>
+    <div class="field">
+      <input id="newsletter-email" type="email" name="email" autocomplete="email" required />
+      <button class="button" type="submit">Sign up</button>
+    </div>
+  </form>
+</section>

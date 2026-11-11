@@ -1,0 +1,18 @@
+---
+import Page from '../components/Page.astro';
+import { AUTHORS, SITE } from '../lib/site';
+import { getPosts, postUrl } from '../lib/posts';
+const posts = await getPosts();
+---
+<Page title="Authors" description="Who writes and edits Orkhon Atlas." path="/authors/">
+  {Object.values(AUTHORS).map((a) => (
+    <section id={a.slug}>
+      <h2>{a.name}</h2>
+      <p>{a.bio}</p>
+      <p>The desk writes in a first-hand, practical voice, but we do not put words in anyone's mouth: there are no invented interviews, quotes or anecdotes on this site. When we describe a day on the steppe, it is a picture of what you can expect, not a claim about a particular trip.</p>
+      <h3>Stories by {a.name}</h3>
+      <ul>{posts.filter((p) => (p.data.author ?? 'desk') === a.slug).map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul>
+    </section>
+  ))}
+  <p>To contact the editors, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+</Page>

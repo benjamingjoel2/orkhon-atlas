@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from './PostCard.astro';
+import type { Post } from '../lib/posts';
+import type { Crumb } from '../lib/schema';
+interface Props { title: string; intro: string; path: string; crumbs: Crumb[]; posts: Post[]; ogPhoto?: string; section?: string }
+const { title, intro, path, crumbs, posts, ogPhoto, section } = Astro.props;
+---
+<Base title={title} description={intro} path={path} crumbs={crumbs} ogPhoto={ogPhoto} section={section}>
+  <div class="wrap">
+    <header class="measure listing-head">
+      <h1>{title}</h1>
+      <p class="lede">{intro}</p>
+    </header>
+    <slot />
+    {posts.length > 0
+      ? <div class="grid grid-3 listing">{posts.map((p) => <PostCard post={p} headingLevel="h2" />)}</div>
+      : <p>No stories here yet. In the meantime, <a href="/posts/">see all stories</a>.</p>}
+  </div>
+</Base>
+<style>
+  .listing-head { padding-bottom: 1.25rem; }
+  .listing { padding-bottom: 1rem; }
+  .listing :global(h2) { font-size: 1.25rem; }
+</style>

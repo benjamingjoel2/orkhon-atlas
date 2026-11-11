@@ -1,0 +1,6 @@
+---
+import Listing from '../../components/Listing.astro';
+import { getPosts } from '../../lib/posts';
+const posts = await getPosts();
+---
+<Listing title="All stories" intro="Every Orkhon Atlas story, newest first. Each one lists its sources and shows when it was last updated." path="/posts/" crumbs={[{ name: 'Home', path: '/' }, { name: 'All stories', path: '/posts/' }]} posts={posts} />

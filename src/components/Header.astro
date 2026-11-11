@@ -1,0 +1,22 @@
+---
+import { CATEGORIES, SITE } from '../lib/site';
+const { current } = Astro.props as { current?: string };
+---
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/">
+      <span class="brand-name">{SITE.name}</span>
+      <span class="brand-by">by Tourground</span>
+    </a>
+    <a class="header-about" href="/about/" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+  </div>
+  <nav class="site-nav" aria-label="Categories">
+    <div class="wrap">
+      <ul>
+        {CATEGORIES.map((c) => (
+          <li><a href={`/${c.slug}/`} aria-current={current === c.slug ? 'page' : undefined}>{c.name}</a></li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,117 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPhoto } from '../../lib/photos';
+import { heroImage } from '../../lib/hero';
+import { AUTHORS, SITE, categoryBySlug, destinationBySlug } from '../../lib/site';
+import { blogPosting } from '../../lib/schema';
+import { formatDate, getPosts, isoDate, postUrl, readingMinutes, relatedPosts, wordCount, type Post } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post, all: posts } }));
+}
+const { post, all } = Astro.props as { post: Post; all: Post[] };
+const { Content } = await render(post);
+const d = post.data;
+const category = categoryBySlug(d.category);
+const author = AUTHORS[d.author] ?? AUTHORS.desk;
+const photo = getPhoto(d.hero);
+const hero = await heroImage(photo);
+const path = postUrl(post);
+const related = relatedPosts(post, all);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: category.name, path: `/${category.slug}/` },
+  { name: d.title, path },
+];
+const ld = blogPosting({
+  path,
+  title: d.title,
+  description: d.description,
+  image: hero.src,
+  published: isoDate(d.published),
+  updated: isoDate(d.updated),
+  authorName: author.name,
+  authorPath: `/authors/#${author.slug}`,
+  section: category.name,
+  words: wordCount(post),
+  citations: d.sources.map((s) => s.url),
+  sponsored: !!d.advertisement,
+});
+---
+<Base title={d.title} description={d.description} path={path} crumbs={crumbs} ogPhoto={d.hero} ogType="article" extraLd={[ld]} preloadImage={{ srcset: hero.srcset, sizes: hero.sizes, type: hero.type }} section={d.category}>
+  <article>
+    <header class="wrap post-head">
+      {d.advertisement && (
+        <div>
+          <p class="ad-label">Advertisement feature</p>
+          <p class="meta">Paid for by{' '}{d.advertisement.sponsorUrl ? <a href={d.advertisement.sponsorUrl} rel="sponsored noopener">{d.advertisement.sponsor}</a> : d.advertisement.sponsor}. See our <a href="/disclosure/">disclosure</a>.</p>
+        </div>
+      )}
+      <p class="kicker">
+        <a href={`/${category.slug}/`}>{category.name}</a>
+        {d.destinations.map((s) => <> · <a href={`/destinations/${s}/`}>{destinationBySlug(s).name}</a></>)}
+      </p>
+      <h1>{d.title}</h1>
+      <p class="lede">{d.description}</p>
+      <p class="meta">
+        By <a href={`/authors/#${author.slug}`}>{author.name}</a>{' · '}
+        Published <time datetime={isoDate(d.published)}>{formatDate(d.published)}</time>{' · '}
+        {readingMinutes(post)} min read
+      </p>
+    </header>
+    <div class="wrap"><Hero photo={photo} alt={d.heroAlt} /></div>
+    <div class="wrap post-body">
+      <p class="box box-sky updated">
+        <strong>Last updated <time datetime={isoDate(d.updated)}>{formatDate(d.updated)}</time>.</strong>{' '}
+        Visa, health and safety rules change. We link the official source wherever we state one, so check it before you travel.
+      </p>
+      <div class="prose">
+        <Content />
+      </div>
+
+      <aside class="box box-gold plan" aria-labelledby="plan-heading">
+        <h2 id="plan-heading">{d.plan.heading}</h2>
+        <p>{d.plan.text}</p>
+        <p><a class="button" href={d.plan.operatorUrl} rel="noopener">Visit {d.plan.operatorName}</a></p>
+        {d.plan.operatorNote && <p class="meta">{d.plan.operatorNote}</p>}
+        <p>Looking for other options? Browse <a href={SITE.directoryUrl} rel="noopener">verified local operators in the Tourground directory</a>.</p>
+        <p class="meta">{d.plan.operatorName}{' '}is listed through Tourground, which publishes this blog. Nobody paid for this box. <a href="/disclosure/">How we work with operators</a>.</p>
+      </aside>
+
+      {d.sources.length > 0 && (
+        <section class="sources" aria-labelledby="sources-heading">
+          <h2 id="sources-heading">Sources</h2>
+          <ol>
+            {d.sources.map((s) => (
+              <li><a href={s.url} rel="noopener">{s.title}</a>,{' '}{s.publisher}. Accessed {formatDate(s.accessed)}.</li>
+            ))}
+          </ol>
+        </section>
+      )}
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="wrap section related" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related stories</h2>
+      <div class="grid grid-3">{related.map((p) => <PostCard post={p} />)}</div>
+    </section>
+  )}
+</Base>
+<style>
+  .post-head { max-width: calc(var(--measure) + 2 * var(--gutter)); margin-left: auto; margin-right: auto; padding-top: 0.5rem; padding-bottom: 1.5rem; }
+  @media (min-width: 72rem) { .post-head { max-width: var(--wide); } .post-head > * { max-width: 48rem; } }
+  .post-body { padding-top: 1.75rem; }
+  .post-body > * { max-width: var(--measure); margin-left: auto; margin-right: auto; }
+  @media (min-width: 72rem) { .post-body > * { margin-left: 0; } }
+  .updated { font-size: 0.95rem; margin-bottom: 2rem; }
+  .plan { margin-top: 2.5rem; margin-bottom: 2.5rem; }
+  .sources { font-size: 0.95rem; color: var(--muted); }
+  .sources h2 { font-size: 1.375rem; }
+  .sources li { margin-bottom: 0.45rem; overflow-wrap: anywhere; }
+  .related { border-top: 1px solid var(--line); margin-top: 1rem; }
+</style>

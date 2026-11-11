@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import Page from '../components/Page.astro';
+import { allPhotos } from '../lib/photos';
+const photos = allPhotos();
+---
+<Page title="Photo credits" description="Credits and licences for every photograph on Orkhon Atlas." path="/photo-credits/">
+  <p>Every photograph on Orkhon Atlas is a real photograph from Wikimedia Commons, used under the licence shown. Images have been resized and cropped for the web. Click a title to see the original file and its full licence details.</p>
+  <ul class="credits">
+    {photos.map((p) => (
+      <li>
+        <Image src={p.image} alt={p.alt} widths={[240, 480]} sizes="8rem" quality={60} loading="lazy" />
+        <div>
+          <a href={p.sourceUrl} rel="noopener">{p.title}</a><br />
+          by {p.author}, <a href={p.licenseUrl} rel="license noopener">{p.license}</a>
+        </div>
+      </li>
+    ))}
+  </ul>
+</Page>
+<style>
+  .credits { list-style: none; padding: 0; }
+  .credits li { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; align-items: start; border-top: 1px solid var(--line); padding: 0.9rem 0; overflow-wrap: anywhere; }
+  .credits img { aspect-ratio: 3/2; object-fit: cover; width: 8rem; }
+</style>

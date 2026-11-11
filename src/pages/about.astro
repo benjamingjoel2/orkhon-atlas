@@ -1,0 +1,22 @@
+---
+import Page from '../components/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="About Orkhon Atlas" description="Who publishes Orkhon Atlas, how we write about Mongolia, and how to contact us. Published by Tourground." path="/about/" section="about">
+  <p>Orkhon Atlas is a travel blog for people planning a trip to Mongolia. We write story-led, practical posts about the steppe, the Gobi, nomad life and the festivals: what a place is like when you get there, how to time your visit, and what to sort out before you go.</p>
+  <h2>Published by Tourground</h2>
+  <p>Orkhon Atlas is published by <a href={SITE.publisher.url}>Tourground</a>, which works with local travel companies around the world and runs a directory of verified operators. Our <a href="/disclosure/">disclosure</a> explains that relationship and how it affects what we link to.</p>
+  <h2>How we write</h2>
+  <ul>
+    <li><strong>Sourced.</strong> Facts about visas, health, safety, protected areas and festivals come from official sources: government travel advice, health agencies, UNESCO and Mongolian authorities. Every post lists its sources at the end and links them where the fact appears.</li>
+    <li><strong>Dated.</strong> Every post shows when it was published and when it was last updated. Rules change, so check the linked source before you travel.</li>
+    <li><strong>No invented detail.</strong> We do not publish made-up reviews, quotes, prices or statistics. If we cannot source something, we leave it out.</li>
+    <li><strong>Real photographs.</strong> Every photo is a real, credited photograph used under its licence. See <a href="/photo-credits/">photo credits</a>.</li>
+  </ul>
+  <h2>Planning a trip</h2>
+  <p>Each post ends with a "Plan this trip" box pointing you to a local operator listed through the Tourground directory, such as <a href="https://steppeandsky.tourground.com/">Steppe &amp; Sky</a>. We do not sell trips, take bookings or handle payments ourselves. Any arrangement you make is between you and the operator.</p>
+  <h2>Advertising</h2>
+  <p>If we ever publish a paid placement, it will be labelled "Advertisement feature" at the top of the page and on every card that links to it.</p>
+  <h2>Contact and corrections</h2>
+  <p>If something on this site is wrong or out of date, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will check it against the source and correct it.</p>
+</Page>

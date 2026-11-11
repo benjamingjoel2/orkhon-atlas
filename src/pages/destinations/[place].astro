@@ -1,0 +1,13 @@
+---
+import Listing from '../../components/Listing.astro';
+import { DESTINATIONS } from '../../lib/site';
+import { getPosts } from '../../lib/posts';
+
+export function getStaticPaths() {
+  return DESTINATIONS.map((d) => ({ params: { place: d.slug }, props: { d } }));
+}
+const { d } = Astro.props as { d: (typeof DESTINATIONS)[number] };
+const posts = (await getPosts()).filter((p) => p.data.destinations.includes(d.slug));
+const path = `/destinations/${d.slug}/`;
+---
+<Listing title={d.name} intro={d.blurb} path={path} crumbs={[{ name: 'Home', path: '/' }, { name: 'Destinations', path: '/destinations/' }, { name: d.name, path }]} posts={posts} ogPhoto={d.photo} section="destinations" />

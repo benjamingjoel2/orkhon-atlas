@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import PostCard from '../components/PostCard.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { getPhoto } from '../lib/photos';
+import { heroImage } from '../lib/hero';
+import { CATEGORIES, DESTINATIONS, SITE } from '../lib/site';
+import { formatDate, getPosts, isoDate, postUrl, readingMinutes } from '../lib/posts';
+
+const posts = await getPosts();
+const featured = posts.find((p) => p.data.featured) ?? posts[0];
+const startHere = posts.filter((p) => p.data.startHere && p.id !== featured.id).slice(0, 3);
+const latest = posts.filter((p) => p.id !== featured.id).slice(0, 6);
+const photo = getPhoto(featured.data.hero);
+const hero = await heroImage(photo);
+---
+<Base title={SITE.name} description={SITE.description} path="/" ogPhoto={featured.data.hero} preloadImage={{ srcset: hero.srcset, sizes: hero.sizes, type: hero.type }}>
+  <section class="wrap featured" aria-labelledby="featured-heading">
+    <p class="intro">{SITE.tagline} Published by Tourground.</p>
+    <Hero photo={photo} alt={featured.data.heroAlt} />
+    <div class="featured-text">
+      <p class="kicker">Featured story</p>
+      <h1 id="featured-heading"><a href={postUrl(featured)}>{featured.data.title}</a></h1>
+      <p class="lede">{featured.data.description}</p>
+      <p class="meta"><time datetime={isoDate(featured.data.published)}>{formatDate(featured.data.published)}</time> · {readingMinutes(featured)} min read</p>
+    </div>
+  </section>
+
+  <section class="start-here" aria-labelledby="start-heading">
+    <div class="wrap">
+      <h2 id="start-heading">New to Mongolia? Start here</h2>
+      <ol class="start-list">
+        <li><a href={postUrl(featured)}>{featured.data.title}</a><span>{featured.data.description}</span></li>
+        {startHere.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a><span>{p.data.description}</span></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="latest-heading">
+    <div class="section-head">
+      <h2 id="latest-heading">Latest stories</h2>
+      <a href="/posts/">All stories</a>
+    </div>
+    <div class="grid grid-3">{latest.map((p) => <PostCard post={p} />)}</div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="cats-heading">
+    <h2 id="cats-heading">Browse by category</h2>
+    <ul class="cats">
+      {CATEGORIES.map((c) => (
+        <li><a href={`/${c.slug}/`}>{c.name}</a><p>{c.blurb}</p></li>
+      ))}
+    </ul>
+    <h3 class="dest-heading">Destinations</h3>
+    <ul class="dests">
+      {DESTINATIONS.map((d) => <li><a href={`/destinations/${d.slug}/`}>{d.name}</a></li>)}
+    </ul>
+  </section>
+
+  <div class="wrap section"><div class="measure"><Newsletter /></div></div>
+</Base>
+<style>
+  .intro { color: var(--muted); margin: 1.25rem 0 1rem; font-size: 0.975rem; }
+  .featured-text { max-width: 48rem; margin-top: 1.25rem; padding-bottom: 1rem; }
+  .featured-text h1 a { color: var(--ink); text-decoration: none; }
+  .featured-text h1 a:hover { color: var(--sky); text-decoration: underline; }
+  .start-here { background: var(--sky-tint); border-top: 1px solid #c4d8eb; border-bottom: 1px solid #c4d8eb; padding: 2rem 0; margin-top: 1rem; }
+  .start-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.25rem; counter-reset: start; }
+  @media (min-width: 48rem) { .start-list { grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); } }
+  .start-list li { counter-increment: start; border-top: 3px solid var(--gold); padding-top: 0.75rem; }
+  .start-list li::before { content: 'Step ' counter(start); display: block; font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold-ink); margin-bottom: 0.3rem; }
+  .start-list a { font-family: var(--serif); font-size: 1.25rem; font-weight: 600; color: var(--ink); line-height: 1.25; }
+  .start-list a:hover { color: var(--sky); }
+  .start-list span { display: block; color: var(--muted); font-size: 0.95rem; margin-top: 0.35rem; }
+  .cats { list-style: none; padding: 0; margin: 0 0 1.5rem; display: grid; gap: 1rem 1.5rem; }
+  @media (min-width: 40rem) { .cats { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 64rem) { .cats { grid-template-columns: repeat(3, 1fr); } }
+  .cats li { border-top: 1px solid var(--line); padding-top: 0.75rem; }
+  .cats a { font-family: var(--serif); font-size: 1.25rem; font-weight: 600; }
+  .cats p { color: var(--muted); font-size: 0.95rem; margin: 0.3rem 0 0; }
+  .dest-heading { margin-top: 0.5rem; }
+  .dests { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .dests a { display: inline-block; padding: 0.55rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; background: #fff; text-decoration: none; min-height: 44px; line-height: 1.6; }
+  .dests a:hover { border-color: var(--sky); }
+</style>

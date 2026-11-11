@@ -1,0 +1,5 @@
+---
+import type { Photo } from '../lib/photos';
+const { photo } = Astro.props as { photo: Photo };
+---
+<p class="credit">Photo: <a href={photo.sourceUrl} rel="noopener">{photo.title}</a>{' '}by {photo.author},{' '}<a href={photo.licenseUrl} rel="license noopener">{photo.license}</a>, via Wikimedia Commons.</p>

@@ -1,0 +1,15 @@
+---
+import type { Photo } from '../lib/photos';
+import Credit from './Credit.astro';
+import { heroImage } from '../lib/hero';
+const { photo, alt } = Astro.props as { photo: Photo; alt?: string };
+const img = await heroImage(photo);
+---
+<figure class="photo hero">
+  <img src={img.src} srcset={img.srcset} sizes={img.sizes} width={img.width} height={img.height} alt={alt ?? photo.alt} fetchpriority="high" decoding="async" />
+  <figcaption><Credit photo={photo} /></figcaption>
+</figure>
+<style>
+  .hero img { aspect-ratio: 3 / 2; max-height: 78vh; }
+  @media (min-width: 48rem) { .hero img { aspect-ratio: 16 / 9; } }
+</style>

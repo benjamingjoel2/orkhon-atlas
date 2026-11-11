@@ -1,0 +1,18 @@
+---
+import Page from '../components/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Terms" description="Terms of use for Orkhon Atlas." path="/terms/">
+  <h2>Using this site</h2>
+  <p>Orkhon Atlas is published by Tourground for general information about travel in Mongolia. By using the site you agree to these terms.</p>
+  <h2>Information, not advice</h2>
+  <p>We check facts against official sources and show when each post was last updated, but rules, fees, health advice and conditions change. Before you travel, check the official sources we link, including government travel advice for your nationality and your doctor or a travel health clinic. Nothing on this site is legal, medical or financial advice.</p>
+  <h2>Operators and bookings</h2>
+  <p>We do not sell trips or take bookings. If you book with an operator we link to, your contract is with that operator and their terms apply.</p>
+  <h2>Copyright</h2>
+  <p>Text on this site is © 2026 Tourground. Photographs belong to their creators and are used under the licences listed on the <a href="/photo-credits/">photo credits</a> page; you may reuse them under those same licences.</p>
+  <h2>Liability</h2>
+  <p>To the extent the law allows, Tourground is not liable for loss arising from reliance on information on this site or on sites we link to. Nothing in these terms limits liability that cannot be limited by law.</p>
+  <h2>Contact</h2>
+  <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Page>

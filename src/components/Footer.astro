@@ -1,0 +1,40 @@
+---
+import { CATEGORIES, DESTINATIONS, SITE } from '../lib/site';
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>{SITE.name}</h2>
+        <p>{SITE.tagline} Every post lists its sources and shows when it was last updated.</p>
+        <p class="published-by">Published by <a href={SITE.publisher.url}>Tourground</a>.</p>
+        <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+      </div>
+      <nav aria-label="Categories (footer)">
+        <h2>Categories</h2>
+        <ul>{CATEGORIES.map((c) => <li><a href={`/${c.slug}/`}>{c.name}</a></li>)}</ul>
+      </nav>
+      <nav aria-label="Destinations (footer)">
+        <h2>Destinations</h2>
+        <ul>{DESTINATIONS.map((d) => <li><a href={`/destinations/${d.slug}/`}>{d.name}</a></li>)}</ul>
+      </nav>
+      <nav aria-label="About this site">
+        <h2>About</h2>
+        <ul>
+          <li><a href="/about/">About Orkhon Atlas</a></li>
+          <li><a href="/authors/">Authors</a></li>
+          <li><a href="/disclosure/">Disclosure</a></li>
+          <li><a href="/photo-credits/">Photo credits</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="/cookies/">Cookies</a></li>
+          <li><a href="/terms/">Terms</a></li>
+          <li><a href="/rss.xml">RSS feed</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-base">
+      <span>© 2026 Tourground · orkhonatlas.tourground.com</span>
+      <span class="published-by">Published by Tourground</span>
+    </div>
+  </div>
+</footer>

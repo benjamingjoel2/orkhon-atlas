@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import { getPhoto } from '../lib/photos';
+import { categoryBySlug } from '../lib/site';
+import { formatDate, isoDate, postUrl, readingMinutes, type Post } from '../lib/posts';
+interface Props { post: Post; headingLevel?: 'h2' | 'h3'; showCategory?: boolean }
+const { post, headingLevel = 'h3', showCategory = true } = Astro.props;
+const photo = getPhoto(post.data.hero);
+const H = headingLevel;
+const url = postUrl(post);
+---
+<article class="card">
+  <a href={url} tabindex="-1" aria-hidden="true">
+    <Image src={photo.image} alt="" widths={[400, 640, 800]} sizes="(min-width: 64rem) 22rem, (min-width: 40rem) 45vw, 100vw" quality={70} />
+  </a>
+  {post.data.advertisement && <p class="ad-label">Advertisement feature</p>}
+  {showCategory && <p class="kicker"><a href={`/${post.data.category}/`}>{categoryBySlug(post.data.category).name}</a></p>}
+  <H><a href={url}>{post.data.title}</a></H>
+  <p>{post.data.description}</p>
+  <p class="meta"><time datetime={isoDate(post.data.published)}>{formatDate(post.data.published)}</time> · {readingMinutes(post)} min read</p>
+</article>
