@@ -4,7 +4,7 @@ description: "How the Golden Eagle Festival near Ölgii works, what you will see
 category: festivals
 destinations: [altai]
 published: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-13
 author: desk
 hero: eagle
 heroAlt: "A Kazakh man in an embroidered skullcap sits beside a golden eagle perched on his gloved arm"
@@ -17,22 +17,6 @@ plan:
   operatorUrl: "https://steppeandsky.tourground.com/festivals"
   operatorNote: "Steppe & Sky's festivals page covers Naadam, the Golden Eagle Festival and Tsagaan Sar, and says festival dates move every year and are confirmed during planning."
 sources:
-  - title: "Golden Eagle Festival"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Golden_Eagle_Festival"
-    accessed: 2026-11-11
-  - title: "Bayan-Ölgii Province"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Bayan-%C3%96lgii_Province"
-    accessed: 2026-11-11
-  - title: "Altai Tavan Bogd National Park"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Altai_Tavan_Bogd_National_Park"
-    accessed: 2026-11-11
-  - title: "Khüiten Peak"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Kh%C3%BCiten_Peak"
-    accessed: 2026-11-11
   - title: "Mongolian festivals: Naadam, Golden Eagle, Tsagaan Sar"
     publisher: "Steppe & Sky"
     url: "https://steppeandsky.tourground.com/festivals"
@@ -61,6 +45,14 @@ sources:
     publisher: "TravelHealthPro (UK Health Security Agency / NaTHNaC)"
     url: "https://travelhealthpro.org.uk/countries/mongolia"
     accessed: 2026-11-11
+  - title: "Explore and experience Mongolia"
+    publisher: "Go Mongolia, official tourism website of the Government of Mongolia"
+    url: "https://www.gomongolia.gov.mn/explore-experience/"
+    accessed: 2026-11-13
+  - title: "Falconry, a living human heritage"
+    publisher: "UNESCO Intangible Cultural Heritage"
+    url: "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708"
+    accessed: 2026-11-13
 ---
 
 You will hear the festival before you understand it. A low drumming of hooves on frozen ground, the jingle of harness, a murmur of Kazakh and Mongolian from the crowd, and then a hush as someone on the ridge above the plain lifts a hood from a bird's head. For a moment the eagle simply sits there on a gloved fist, looking out over the brown autumn steppe. Then it goes. Down in the valley a rider in a fox-fur hat is calling and waving a lure, and the whole crowd turns its head to follow a pair of wings dropping out of a very large, very blue sky.
@@ -69,9 +61,9 @@ The Golden Eagle Festival in Mongolia's far west is one of those events that liv
 
 ## What the festival celebrates
 
-The festival is held each year in Bayan-Ölgii, Mongolia's westernmost province. According to its [Wikipedia entry](https://en.wikipedia.org/wiki/Bayan-%C3%96lgii_Province), Bayan-Ölgii is the country's only Muslim and Kazakh-majority province, with its capital at Ölgii. That is the first surprise for many visitors: out here the language on shop signs, the music and much of the food is Kazakh rather than Mongolian, and the welcome comes with a different set of customs.
+The festival is held each year in Bayan-Ölgii, Mongolia's westernmost province. It is Kazakh country: Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) describes eagle hunting as a tradition that Kazakh nomads in western Mongolia have practised for over 2,000 years. That is the first surprise for many visitors: out here you will hear Kazakh as well as Mongolian, and the welcome comes with its own customs.
 
-The Golden Eagle Festival celebrates the traditions of Kazakh eagle hunters, known as *bürkitshi*, who train and hunt with golden eagles. It is [organised by the Mongolian Eagle Hunter's Association](https://en.wikipedia.org/wiki/Golden_Eagle_Festival), and its competitions are designed to show off eagle handling, traditional Kazakh dress and horsemanship. Events take place both in central Ölgii and on the steppe a few kilometres outside town.
+The Golden Eagle Festival celebrates the traditions of Kazakh eagle hunters, who train golden eagles to hunt foxes and small animals. The government's [tourism website](https://www.gomongolia.gov.mn/explore-experience/) describes hunters competing "in horseback riding, archery, and eagle-hunting demonstrations". Falconry as a whole is on UNESCO's [list of intangible cultural heritage](https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708), with Mongolia among the countries that share the listing. Steppe & Sky's [festival calendar](https://steppeandsky.tourground.com/festivals) says it is usually held on a plain near Ölgii, but venues can change from year to year, so confirm the location along with the dates.
 
 It is worth holding onto the idea that the festival is a showcase of a working tradition, not the tradition itself. Eagle hunting is something that happens through the winter in the mountains, in the homes of families who keep and train these birds. The festival brings many of them together in one place for a few days, which is precisely why it is such a rare chance for a visitor to see it.
 
@@ -79,19 +71,19 @@ It is worth holding onto the idea that the festival is a showcase of a working t
 
 Here is the honest answer: dates vary, so verify them every year. Steppe & Sky's [festival calendar](https://steppeandsky.tourground.com/festivals) describes it as falling in early October, typically on the first weekend, near Ölgii, and is careful to add that dates move and should be checked each year. The same page notes a smaller festival near Sagsai is often held in mid to late September, and some travellers combine the two.
 
-The Sagsai event is [described on Wikipedia](https://en.wikipedia.org/wiki/Golden_Eagle_Festival) as an annual September gathering in Uujim, the centre of Sagsai district, with a similar structure and a smaller field of hunters. If you prefer a more intimate atmosphere, or you want two chances at good weather and good light, it is worth looking at.
+If you prefer a more intimate atmosphere, or you want two chances at good weather and good light, ask your operator about the smaller event and confirm its dates for your year.
 
 Do not book flights until the dates for your year are confirmed. Build in a spare day at either end if you can; in the far west, weather and transport have a way of rearranging plans.
 
 ## What you will see on the field
 
-The events are built around the partnership between hunter, horse and bird. Wikipedia lists prize categories such as best eagle at hunting prey, best eagle responding to its handler, and best presentation of traditional attire, alongside horse racing, archery and a horseback tug-of-war over a goatskin. Steppe & Sky's description of the competitions matches that closely: speed and accuracy as the eagle lands on its hunter's arm, catching a lure dragged behind a galloping horse, and the turnout of rider, horse and bird together.
+The events are built around the partnership between hunter, horse and bird. The [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) describes a "tournament of tradition and skill" built on horseback riding, archery and eagle-hunting demonstrations. Steppe & Sky's description of the competitions fills in the detail: speed and accuracy as the eagle lands on its hunter's arm, catching a lure dragged behind a galloping horse, and the turnout of rider, horse and bird together.
 
 What the descriptions do not quite prepare you for is the rhythm of the day. There is a lot of waiting, which is part of the pleasure. Hunters ride in slowly, often in heavy coats and fur hats, their birds hooded and balanced on a forearm propped on a wooden rest. Families picnic. Horses are walked up and down. Then a name is called and the plain goes quiet, and everyone watches one bird and one rider.
 
 The calling event is the one most people come to see. The eagle is carried up the ridge, released, and the hunter below calls it in. Some birds come straight down like a thrown stone. Some circle, think about it, land on a rock and sit there, to the delight of the crowd and the visible exasperation of the owner. You will find yourself caring a great deal about birds you met ten minutes ago.
 
-Between the eagle events come the horseback games. In the goatskin tug-of-war two riders wrestle for a carcass at full tilt; in another, riders lean out of the saddle at a gallop to snatch a coin or a scarf from the ground. These games are fast and close, so keep an eye on where you are standing and follow the stewards' lead.
+Between the eagle events come the horseback games that Steppe & Sky's calendar describes: *kokpar*, a tug-of-war over a goatskin, and *tenge ilu*, picking a coin from the ground at a gallop. These games are fast and close, so keep an eye on where you are standing and follow the stewards' lead.
 
 Around the edges there is music, felt and embroidered crafts, and food from stalls and family tables. Evenings in Ölgii are a good time to eat Kazakh dishes and, if you are lucky, hear the *dombra*, the two-stringed lute you will see slung on many a saddle.
 
@@ -103,13 +95,13 @@ It is also where you should bring your best manners. These are working homes. As
 
 ## The debate you should know about
 
-It would be dishonest to present the festival as untouched by tourism. Wikipedia notes that researchers have documented concerns about the commercialisation of the festival, the rise of hand-raised eagles kept for tourism rather than hunting, and shifting motivations among younger hunters. You do not need to resolve that debate to enjoy the event, but it is a good reason to travel thoughtfully: choose an operator that works directly with hunting families, spend time with them beyond the festival weekend, and ask your guide about the tradition rather than simply collecting pictures of it.
+It would be dishonest to present the festival as untouched by tourism: it is, after all, a showcase put on in front of visitors. That is a good reason to travel thoughtfully: choose an operator that works directly with hunting families, spend time with them beyond the festival weekend, and ask your guide about the tradition rather than simply collecting pictures of it.
 
 ## Getting to the far west
 
 Ölgii is a long way from Ulaanbaatar, and most visitors fly. Steppe & Sky warns that flights to Ölgii and local accommodation fill quickly around the festival, so this is not a trip to arrange at the last minute. At the time of writing (November 2026), the UK Foreign, Commonwealth & Development Office (FCDO) also [reports fuel shortages in Mongolia, including aviation fuel](https://www.gov.uk/foreign-travel-advice/mongolia/warnings-and-insurance), and says disruptions may affect domestic and international flights and road travel. Check with your airline or operator shortly before you travel and allow extra time.
 
-Bayan-Ölgii sits against the borders with Russia and China. The [FCDO's entry requirements page](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements) says the authorities can treat zones of up to 100km inside the border as a border area, and that foreigners need permission from the State Frontier Guard Authority to travel in them. That matters if you plan to add a trip into the high mountains: [Altai Tavan Bogd National Park](https://en.wikipedia.org/wiki/Altai_Tavan_Bogd_National_Park) includes the Mongolian side of the Tavan Bogd massif at the triple border, and [Khüiten Peak](https://en.wikipedia.org/wiki/Kh%C3%BCiten_Peak), at 4,356 metres the highest point in Mongolia, stands right on the China-Mongolia border. A local operator will normally arrange permits as part of the trip.
+Bayan-Ölgii sits against the borders with Russia and China. The [FCDO's entry requirements page](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements) says the authorities can treat zones of up to 100km inside the border as a border area, and that foreigners need permission from the State Frontier Guard Authority to travel in them. That matters if you plan to add a trip into the high mountains: Altai Tavan Bogd National Park is, in the words of Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/), home to the country's highest peaks, including Khüiten Peak, which it gives as 4,374 metres, along with glaciers, alpine lakes and ancient petroglyphs. A local operator will normally arrange permits as part of the trip.
 
 The same FCDO page reported, at the time of writing, a foot and mouth disease outbreak in several western provinces including Bayan-Ölgii, and advised monitoring local media because other provinces could be affected at short notice. Ask your operator how any current restrictions affect your route.
 

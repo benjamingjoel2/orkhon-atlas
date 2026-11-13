@@ -4,7 +4,7 @@ description: "Singing dunes, the red Flaming Cliffs, an ice-filled gorge and the
 category: destinations
 destinations: [gobi]
 published: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-13
 author: desk
 hero: gobi
 heroAlt: "Tall pale sand dunes stretch across the desert floor beneath a range of bare grey mountains"
@@ -17,22 +17,6 @@ plan:
   operatorUrl: "https://steppeandsky.tourground.com/adventures"
   operatorNote: "Steppe & Sky's adventures page lists Gobi trips including a Gobi camel trek with dune camping and a classic overland route from the Gobi to Kharkhorin, offered as small-group or private journeys."
 sources:
-  - title: "Gobi Gurvansaikhan National Park"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Gobi_Gurvansaikhan_National_Park"
-    accessed: 2026-11-11
-  - title: "Khongoryn Els"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Khongoryn_Els"
-    accessed: 2026-11-11
-  - title: "Flaming Cliffs"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Flaming_Cliffs"
-    accessed: 2026-11-11
-  - title: "Yolyn Am"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Yolyn_Am"
-    accessed: 2026-11-11
   - title: "Mongolia travel advice: Safety and security"
     publisher: "UK Foreign, Commonwealth & Development Office"
     url: "https://www.gov.uk/foreign-travel-advice/mongolia/safety-and-security"
@@ -57,6 +41,10 @@ sources:
     publisher: "Steppe & Sky"
     url: "https://steppeandsky.tourground.com/festivals"
     accessed: 2026-11-11
+  - title: "Explore and experience Mongolia"
+    publisher: "Go Mongolia, official tourism website of the Government of Mongolia"
+    url: "https://www.gomongolia.gov.mn/explore-experience/"
+    accessed: 2026-11-13
 ---
 
 You'll start the climb as the sun drops. The sand is cool on the shaded side of the ridge and still warm on the other, and every step slides half a step back. Halfway up, your legs are burning and you stop to look behind you: the vehicle you arrived in is a toy, the camp a scatter of white dots, and beyond them the plain runs flat and green-gold to a line of dark mountains. At the crest the wind picks up. Sit down, push your hands into the sand and let it pour away down the slip face, and you may hear it, a low hum rising from the dune itself. Then the light turns the whole ridge the colour of apricots, and for a few minutes nobody says much at all.
@@ -65,15 +53,15 @@ The Gobi is the part of Mongolia that most people picture before they come, and 
 
 ## A desert that is mostly not sand
 
-The classic Gobi trip heads for the south, to the province of Ömnögovi and the Gobi Gurvansaikhan National Park. According to its [Wikipedia entry](https://en.wikipedia.org/wiki/Gobi_Gurvansaikhan_National_Park), the park was established in 1993, expanded in 2000, and is Mongolia's largest national park. It takes its name from the Gurvan Saikhan mountains, the "Three Beauties", and its higher ground rises to around 2,600 metres, with areas of steppe on the upper slopes.
+The classic Gobi trip heads for the south, to the province of Ömnögovi and the Gobi Gurvansaikhan National Park, named after the Gurvan Saikhan mountains, the "Three Beauties". Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) describes the Gobi as "far more than just barren land": a rich ecosystem of towering sand dunes, dramatic canyons, rare wildlife and the fossils of dinosaurs.
 
 So the Gobi you will see is a landscape of variety: wide gravel plains where you can watch a vehicle's dust trail for an hour, rocky ranges, dry riverbeds, saxaul scrub, the occasional spring with a ring of green, and then, suddenly, a line of dunes. That variety is what makes a few days here so rewarding.
 
 ## Khongoryn Els: the singing dunes
 
-The largest dune field on the classic route is Khongoryn Els, inside the national park. Its [Wikipedia entry](https://en.wikipedia.org/wiki/Khongoryn_Els) describes it as popularly known as the "Singing Sands", because sand moving in the wind or sliding down the slopes produces a strong, resonant sound. The dunes run in a long band at the foot of the mountains, and their shape and colour shift through the day as the wind and the light change.
+The great dune field on the classic route is Khongoryn Els, inside the national park. The government's [tourism website](https://www.gomongolia.gov.mn/explore-experience/) calls it the Singing Sand Dunes, "where the sands sing with the wind", and on a breezy day you may hear a low hum as sand slides down the slopes. The dunes run in a long band at the foot of the mountains, and their shape and colour shift through the day as the wind and the light change.
 
-A small river skirts the northern edge of the dunes, and the green pasture along it is where you will see herders' camels and horses grazing. The contrast of grass, water and towering sand within a few hundred metres is one of the most striking sights in the country.
+Along the foot of the dunes you will often find patches of green pasture where herders' camels and horses graze. The contrast of grass and towering sand side by side is one of the most striking sights in the country.
 
 **How to see it.** Most visitors stay at a camp near the dunes for a night or two. Climb in the late afternoon, when the sand has cooled and the low light shows every ripple. The climb is steep and soft, so take water, wear shoes you can empty easily, and give yourself time. If you are going up at sunset, carry a torch for the way down.
 
@@ -87,17 +75,17 @@ If you are visiting in late winter, Steppe & Sky's [festivals page](https://step
 
 ## The Flaming Cliffs at Bayanzag
 
-North-east of the dunes lies Bayanzag, better known as the Flaming Cliffs. The [Wikipedia entry](https://en.wikipedia.org/wiki/Flaming_Cliffs) explains that the name was given by the American palaeontologist Roy Chapman Andrews, who worked here in the 1920s, and that the site is most famous for yielding the first discovery of dinosaur eggs. Fossils of Velociraptor and Protoceratops are among the finds made in the area.
+North-east of the dunes lies Bayanzag, better known as the Flaming Cliffs. According to Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/), this is where dinosaur eggs were first discovered, in the 1920s, and it is still the best-known fossil site on a Gobi trip.
 
 What you see today is a long escarpment of red and orange sandstone, carved into gullies and buttresses. At sunset the colour deepens until the whole cliff seems to glow, which is how the place earned its nickname. Walk along the rim, then drop down into the gullies to look back up at the formations.
 
-**Leave everything where it is.** It is illegal to remove fossils from the area without permits, and the same applies to anything that looks like bone or eggshell. Take photographs, not souvenirs.
+**Leave everything where it is.** Anything that looks like bone or eggshell belongs where you found it. The FCDO [warns](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements), at the time of writing (November 2026), that Mongolia has strict rules on goods taken into or out of the country, and that you may be held in Mongolia if you become involved in a customs investigation. Take photographs, not souvenirs.
 
 ## Yolyn Am: ice in the desert
 
-In the eastern part of the Gurvan Saikhan range is Yolyn Am, a deep, narrow gorge whose name refers to the lammergeier, or bearded vulture. According to its [Wikipedia entry](https://en.wikipedia.org/wiki/Yolyn_Am), it is known for an ice field that builds up several metres thick over winter; in the past it lasted all year, but today it tends to have melted by September.
+In the Gurvan Saikhan range is Yolyn Am, a deep, narrow gorge that Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) calls Eagle Valley: "a breathtaking ice-filled canyon at the heart of the desert". Ice builds up in its shaded depths over winter.
 
-The walk into the gorge follows a stream between steep rock walls, and it feels a world away from the plains outside. Look up for birds of prey on the cliffs, and look down for the pikas that dart between the rocks. Early summer is the best time to see ice; by late summer you may find only a trickle of water and cool shade.
+The walk into the gorge follows a stream between steep rock walls, and it feels a world away from the plains outside. Look up for birds of prey on the cliffs, and look down for the pikas that dart between the rocks. How long the ice lasts into summer varies from year to year, so ask your guide what to expect; later in the season you may find only a trickle of water and cool shade.
 
 ## When to go
 

@@ -4,7 +4,7 @@ description: "Wrestling, horse racing and archery in July: what happens at Naada
 category: festivals
 destinations: [ulaanbaatar]
 published: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-13
 author: desk
 hero: naadam
 heroAlt: "Pairs of Mongolian wrestlers in traditional boots and vests grapple on a stadium field while robed attendants stand nearby"
@@ -20,10 +20,6 @@ sources:
   - title: "Naadam, Mongolian traditional festival"
     publisher: "UNESCO Intangible Cultural Heritage"
     url: "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395"
-    accessed: 2026-11-11
-  - title: "Naadam"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Naadam"
     accessed: 2026-11-11
   - title: "Mongolia travel advice: Safety and security"
     publisher: "UK Foreign, Commonwealth & Development Office"
@@ -41,6 +37,10 @@ sources:
     publisher: "Steppe & Sky"
     url: "https://steppeandsky.tourground.com/festivals"
     accessed: 2026-11-11
+  - title: "Explore and experience Mongolia"
+    publisher: "Go Mongolia, official tourism website of the Government of Mongolia"
+    url: "https://www.gomongolia.gov.mn/explore-experience/"
+    accessed: 2026-11-13
 ---
 
 You'll hear the race before you see it. A crowd stands along a rope on open steppe, shading their eyes and looking towards a low ridge. For a long time there is nothing but wind and the murmur of people waiting. Then a smudge of dust appears on the horizon, and a cheer rolls down the line as the first horses come into view, galloping hard, their small riders crouched forward and calling them on. Families shout the names of horses they know. Someone near you is already on the phone to a relative. Within a minute the leaders have flashed past and the crowd is surging towards the finish to see who won.
@@ -59,7 +59,7 @@ The national festival in Ulaanbaatar marks the 1921 revolution. Steppe & Sky's [
 
 ### Wrestling
 
-Wrestling, or bökh, is the event that fills the stadium. Pairs of wrestlers in the traditional costume, a tight open-fronted vest and short trunks, grapple on the grass with no time limit. According to the [Wikipedia summary](https://en.wikipedia.org/wiki/Naadam) of the rules, a wrestler loses when any part of his body other than his feet or hands touches the ground.
+Wrestling, or bökh, is the event that fills the stadium. Pairs of wrestlers in the traditional costume, a tight open-fronted vest and short trunks, grapple on the grass. Before their matches, Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) notes, wrestlers perform the "Eagle Dance", a dramatic and graceful ritual worth watching as closely as the bouts themselves.
 
 Watch what happens after each bout: the winner performs the eagle dance, arms spread like wings. Each wrestler has an encourager, called a zasuul, who sings his praises during the tournament. Wrestlers who go deep into the competition earn titles named after creatures of strength and speed, among them the kestrel, the elephant and the lion, and the crowd knows the famous names.
 

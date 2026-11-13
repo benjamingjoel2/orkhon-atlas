@@ -4,7 +4,7 @@ description: "A day-by-day two-week route from Ulaanbaatar through the Orkhon Va
 category: itineraries
 destinations: [ulaanbaatar, gobi, orkhon-valley]
 published: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-13
 author: desk
 hero: itinerary
 heroAlt: "Red-orange sandstone cliffs and eroded gullies drop away to a flat desert plain"
@@ -17,38 +17,6 @@ plan:
   operatorUrl: "https://steppeandsky.tourground.com/adventures"
   operatorNote: "Steppe & Sky's adventures page lists ten group or private trips, including a 14-day Gobi to Kharkhorin overland route, and says every route can be reshaped around you."
 sources:
-  - title: "Ulaanbaatar"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Ulaanbaatar"
-    accessed: 2026-11-11
-  - title: "Hustai National Park"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Hustai_National_Park"
-    accessed: 2026-11-11
-  - title: "Orkhon Valley"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Orkhon_Valley"
-    accessed: 2026-11-11
-  - title: "Erdene Zuu Monastery"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery"
-    accessed: 2026-11-11
-  - title: "Kharkhorin"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Kharkhorin"
-    accessed: 2026-11-11
-  - title: "Yolyn Am"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Yolyn_Am"
-    accessed: 2026-11-11
-  - title: "Khongoryn Els"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Khongoryn_Els"
-    accessed: 2026-11-11
-  - title: "Flaming Cliffs (Bayanzag)"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Flaming_Cliffs"
-    accessed: 2026-11-11
   - title: "Mongolia adventures: small-group and private trips"
     publisher: "Steppe & Sky"
     url: "https://steppeandsky.tourground.com/adventures"
@@ -73,6 +41,22 @@ sources:
     publisher: "UK Foreign, Commonwealth & Development Office"
     url: "https://www.gov.uk/foreign-travel-advice/mongolia/health"
     accessed: 2026-11-11
+  - title: "Explore and experience Mongolia"
+    publisher: "Go Mongolia, official tourism website of the Government of Mongolia"
+    url: "https://www.gomongolia.gov.mn/explore-experience/"
+    accessed: 2026-11-13
+  - title: "Orkhon Valley Cultural Landscape: nomination file (1081rev)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/uploads/nominations/1081rev.pdf"
+    accessed: 2026-11-13
+  - title: "Hustai National Park (in Mongolian)"
+    publisher: "Hustai National Park"
+    url: "https://www.hustai.mn/"
+    accessed: 2026-11-13
+  - title: "Location (in Mongolian)"
+    publisher: "Hustai National Park"
+    url: "https://www.hustai.mn/%d0%b1%d0%b0%d0%b9%d1%80%d1%88%d0%b8%d0%bb/"
+    accessed: 2026-11-13
 ---
 
 By the third day you stop looking at your watch. The tarmac gave out some time ago, and the track ahead splits into three, then five, then a fan of tyre marks heading over a pass towards a horizon that never seems to get any closer. Your driver picks one without hesitation. A herd of horses lifts its heads as you pass, a white ger sits alone on a slope with a thread of smoke rising from its chimney, and the sky does something extraordinary with the light. You realise that in Mongolia the drive is not the gap between the sights. It is half the point.
@@ -89,7 +73,7 @@ At the time of writing (November 2026), the FCDO also [reports fuel shortages in
 
 ## Days 1–2: Ulaanbaatar
 
-**Day 1.** Arrive in Ulaanbaatar and take it easy. The capital sits at about 1,300 metres in a valley on the Tuul River, and [Wikipedia](https://en.wikipedia.org/wiki/Ulaanbaatar) notes it is the coldest capital city in the world by average yearly temperature, which tells you something about the climate even if you visit in July. Hotels register guests with the immigration authorities through an app; if you are staying privately, the [FCDO](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements) says you must register yourself with the [Mongolian Immigration Agency](https://immigration.gov.mn/en/).
+**Day 1.** Arrive in Ulaanbaatar and take it easy. Even in July, evenings in the capital can turn cool, so keep a warm layer to hand from the first day. Hotels register guests with the immigration authorities through an app; if you are staying privately, the [FCDO](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements) says you must register yourself with the [Mongolian Immigration Agency](https://immigration.gov.mn/en/).
 
 **Day 2.** A full day in the city. Spend it on the museums and monasteries, a walk around the central square, and a briefing with your guide about the route ahead. This is also your last easy chance to buy anything you forgot, change money and pick up a local SIM card. Get an early night.
 
@@ -97,17 +81,17 @@ City practicalities: the FCDO advises against being out alone at night in Ulaanb
 
 ## Day 3: Into the steppe
 
-Leave the city behind and head west. Within a surprisingly short time the apartment blocks give way to open grassland. Many routes stop at [Hustai National Park](https://en.wikipedia.org/wiki/Hustai_National_Park), a protected area of hills and steppe in Töv Province with the Tuul River running through it, for an afternoon walk and an evening of watching the light change over the hills. Your first night in a ger camp: the stove, the felt walls, the sound of wind.
+Leave the city behind and head west. Within a surprisingly short time the apartment blocks give way to open grassland. Many routes stop at [Hustai National Park](https://www.hustai.mn/), where conservationists have worked to bring back the takhi, or Przewalski's horse, the wild horse of the steppe. The park's own [directions](https://www.hustai.mn/%d0%b1%d0%b0%d0%b9%d1%80%d1%88%d0%b8%d0%bb/) put it in Argalant district of Töv province: 82km along the main road west from Ulaanbaatar, then 13km on a dirt track. Stop for an afternoon walk and an evening of watching the light change over the hills. Your first night in a ger camp: the stove, the felt walls, the sound of wind.
 
 ## Days 4–5: Kharkhorin and the Orkhon Valley
 
-**Day 4.** Continue west to Kharkhorin. The [Orkhon Valley Cultural Landscape](https://en.wikipedia.org/wiki/Orkhon_Valley), which lies some 320km west of the capital, is inscribed by UNESCO as a World Heritage Site for representing more than two millennia of nomadic pastoral tradition. Kharkhorin itself stands close to the site of [Karakorum](https://en.wikipedia.org/wiki/Kharkhorin), capital of the Mongol Empire in the 13th century.
+**Day 4.** Continue west to Kharkhorin. The Orkhon Valley Cultural Landscape, which UNESCO's [nomination file](https://whc.unesco.org/uploads/nominations/1081rev.pdf) places some 360km south-west of the capital, is a World Heritage Site whose pastures have been grazed by nomadic herders for the past two millennia. Kharkhorin itself stands beside the ruins of Karakorum, which Mongolia's [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) describes as the capital of the Mongol Empire in the 13th century, established by Chinggis Khaan's son Ögedei Khan.
 
-**Day 5.** Visit [Erdene Zuu Monastery](https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery), built in 1585 and probably the earliest surviving Buddhist monastery in Mongolia, with its long white wall of stupas. Take your time; this is one of the places where the country's history becomes something you can walk through. The FCDO asks visitors to show respect in Buddhist monasteries, ask before taking photographs and not touch sacred images or objects. For more on the area, read our guide to [the Orkhon Valley and Karakorum](/posts/orkhon-valley-karakorum/).
+**Day 5.** Visit Erdene Zuu Monastery, with its long white wall of stupas. Both the [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) and UNESCO's [nomination file](https://whc.unesco.org/uploads/nominations/1081rev.pdf) date its founding to 1586, and the tourism site calls it Mongolia's oldest Buddhist monastery. Take your time; this is one of the places where the country's history becomes something you can walk through. The FCDO asks visitors to show respect in Buddhist monasteries, ask before taking photographs and not touch sacred images or objects. For more on the area, read our guide to [the Orkhon Valley and Karakorum](/posts/orkhon-valley-karakorum/).
 
 ## Days 6–7: Deeper into the valley, and a family stay
 
-**Day 6.** Drive further up the valley. Wikipedia lists the Ulaan Tsutgalan waterfall, about ten metres wide and twenty metres high, among the valley's sights, as well as the hilltop Tuvkhun Hermitage. The landscape is greener and more wooded here, with river meadows that are lovely for walking. Some travellers add a short horse ride; if that appeals, read our [beginner's guide to horse trekking](/posts/horse-trekking-mongolia-beginners/).
+**Day 6.** Drive further up the valley. Head for the Orkhon waterfall and the hilltop Tuvkhun Hermitage, which UNESCO's [nomination file](https://whc.unesco.org/uploads/nominations/1081rev.pdf) says Zanabazar built in the 17th century around caves where hermits once meditated. The landscape is greener and more wooded here, with river meadows that are lovely for walking. Some travellers add a short horse ride; if that appeals, read our [beginner's guide to horse trekking](/posts/horse-trekking-mongolia-beginners/).
 
 **Day 7.** Spend the day and night with a herding family. This is often the part of the trip people remember longest: helping with the animals, learning how a ger is arranged, eating what the household eats. Your guide will translate and explain the etiquette. Our guide to [staying with a nomad family in a ger](/posts/staying-with-nomad-family-ger/) covers what to expect and how to be a good guest.
 
@@ -117,11 +101,11 @@ This is the day to be honest about. Getting from central Mongolia to the Gobi is
 
 ## Days 9–12: The Gobi
 
-**Day 9: Yolyn Am.** Walk into [Yolyn Am](https://en.wikipedia.org/wiki/Yolyn_Am), a deep, narrow gorge in the Gurvan Saikhan Mountains of southern Mongolia. Its name comes from the lammergeier, an Old World vulture known as *yol* in Mongolian, and it is often translated as the Valley of the Vultures or the Valley of the Eagles. It is a cool, shaded contrast to the open desert, and a welcome walk after a long drive.
+**Day 9: Yolyn Am.** Walk into Yolyn Am, a deep, narrow gorge in the Gurvan Saikhan Mountains of southern Mongolia that the [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) calls Eagle Valley, "a breathtaking ice-filled canyon at the heart of the desert". It is a cool, shaded contrast to the open desert, and a welcome walk after a long drive.
 
-**Days 10–11: Khongoryn Els.** Two nights at the dunes. [Khongoryn Els](https://en.wikipedia.org/wiki/Khongoryn_Els), popularly known as the "Singing Sands", lies within Gobi Gurvansaikhan National Park and extends over more than 965 square kilometres. Climb a dune ridge in the late afternoon and wait for sunset, when the sand turns copper and the wind makes the slopes hum. On the full day, ride a camel along the base of the dunes, visit a camel-herding family, or simply sit in the shade and let the scale of the place sink in. For more, see our guide to [the Gobi Desert](/posts/gobi-desert-dunes-cliffs-camels/).
+**Days 10–11: Khongoryn Els.** Two nights at the dunes. Khongoryn Els, the Singing Sand Dunes "where the sands sing with the wind", as the [official tourism website](https://www.gomongolia.gov.mn/explore-experience/) puts it, lies within Gobi Gurvansaikhan National Park. Climb a dune ridge in the late afternoon and wait for sunset, when the sand turns copper and the wind makes the slopes hum. On the full day, ride a camel along the base of the dunes, visit a camel-herding family, or simply sit in the shade and let the scale of the place sink in. For more, see our guide to [the Gobi Desert](/posts/gobi-desert-dunes-cliffs-camels/).
 
-**Day 12: The Flaming Cliffs.** Drive to Bayanzag, the [Flaming Cliffs](https://en.wikipedia.org/wiki/Flaming_Cliffs), named by the American palaeontologist Roy Chapman Andrews, who worked here in the 1920s. The site is famous for yielding the first discovery of dinosaur eggs. Come for the late light, when the sandstone glows red and orange. Remember that it is illegal to remove fossils from the area without permits; look, photograph and leave everything where it lies.
+**Day 12: The Flaming Cliffs.** Drive to Bayanzag, the Flaming Cliffs, where, according to the [official tourism website](https://www.gomongolia.gov.mn/explore-experience/), dinosaur eggs were first discovered in the 1920s. Come for the late light, when the sandstone glows red and orange. Look, photograph and leave everything where it lies: the [FCDO](https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements) notes that Mongolia has strict rules on goods taken out of the country.
 
 ## Days 13–14: Back to the capital and home
 

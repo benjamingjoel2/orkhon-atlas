@@ -4,7 +4,7 @@ description: "What a first horse trek in Mongolia is really like: the horses, th
 category: horses-adventure
 destinations: [orkhon-valley]
 published: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-13
 author: desk
 hero: horses
 heroAlt: "Two riders, one in a yellow robe, ride across green steppe leading a spare horse, with grassy hills behind"
@@ -17,14 +17,6 @@ plan:
   operatorUrl: "https://steppeandsky.tourground.com/adventures"
   operatorNote: "Steppe & Sky's adventures page lists a 10-day horse trek in the Orkhon Valley, graded Challenging, among its ten group or private trips."
 sources:
-  - title: "Mongolian horse"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Mongolian_horse"
-    accessed: 2026-11-11
-  - title: "Orkhon Valley"
-    publisher: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Orkhon_Valley"
-    accessed: 2026-11-11
   - title: "What to pack for Mongolia"
     publisher: "Steppe & Sky"
     url: "https://steppeandsky.tourground.com/what-to-pack"
@@ -57,6 +49,18 @@ sources:
     publisher: "UK Foreign, Commonwealth & Development Office"
     url: "https://www.gov.uk/foreign-travel-advice/mongolia/safety-and-security"
     accessed: 2026-11-11
+  - title: "Livestock numbers up 0.8 percent: preliminary results of the 2025 livestock census"
+    publisher: "Montsame (Mongolian National News Agency), reporting the National Statistics Office of Mongolia"
+    url: "https://www.montsame.mn/en/read/386699"
+    accessed: 2026-11-13
+  - title: "Traditional technique of making airag in khokhuur and its associated customs"
+    publisher: "UNESCO Intangible Cultural Heritage"
+    url: "https://ich.unesco.org/en/RL/traditional-technique-of-making-airag-in-khokhuur-and-its-associated-customs-01172"
+    accessed: 2026-11-13
+  - title: "Orkhon Valley Cultural Landscape: nomination file (1081rev)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/uploads/nominations/1081rev.pdf"
+    accessed: 2026-11-13
 ---
 
 The first thing you notice is how small the horse is. You had pictured something tall and glossy; instead you are standing next to a stocky, shaggy-maned animal that comes up to about your shoulder and regards you with complete indifference. Then you are in the saddle, the wrangler gives a short whistle, and the herd moves off as one across a meadow full of wild flowers. The horse knows exactly where it is going. Within the hour you have stopped gripping the reins quite so hard, and somewhere around the second river crossing you notice that you are grinning.
@@ -65,7 +69,7 @@ Riding in Mongolia is one of the great travel experiences, and you do not need t
 
 ## Why Mongolia is different
 
-Horses are not a tourist attraction here; they are part of daily life. [Wikipedia's entry on the Mongolian horse](https://en.wikipedia.org/wiki/Mongolian_horse) notes that the breed is the country's native horse, that herders still keep more than three million of them, outnumbering the human population, and that they live outdoors all year in temperatures from around 30°C in summer to -40°C in winter, grazing and finding food on their own. They are used for herders' daily work, for transport and for racing, and mare's milk is turned into *airag*, the national drink you are likely to be offered in a ger.
+Horses are not a tourist attraction here; they are part of daily life. The National Statistics Office's nationwide livestock census put the number of horses at about 5.1 million at the end of 2025, according to [preliminary results reported by Montsame](https://www.montsame.mn/en/read/386699), the state news agency. They are used for herders' daily work, for transport and for racing, and mare's milk is churned into *airag*, a fermented drink whose traditional making UNESCO [lists as intangible cultural heritage](https://ich.unesco.org/en/RL/traditional-technique-of-making-airag-in-khokhuur-and-its-associated-customs-01172). You may well be offered a bowl in a ger.
 
 All of that shapes the riding. Mongolian horses are hardy, sure-footed and independent. They are generally not the kind of horse that has spent its life in a riding school; many are semi-wild herd animals that are caught and saddled for the trek. They tend to be calm in a group and keen to keep up with their companions, and they can be quick to react to something new. The wranglers who look after them know each animal's character, which is why a good wrangler matters more than almost anything else on a trek.
 
@@ -79,7 +83,7 @@ There is a wide range of trips, from a few hours' ride out from a ger camp to mu
 
 **What is the grading?** Operators grade their trips, and it is worth taking those grades seriously. Steppe & Sky's [list of adventures](https://steppeandsky.tourground.com/adventures), for example, grades its 10-day Orkhon Valley horse trek as *Challenging*, while gentler trips with only short rides carry an *Easy* grade. If you are a novice, either pick something with less riding, or talk honestly to the operator about whether you can build up during the trip.
 
-**Where?** The Orkhon Valley in central Mongolia is a classic first riding destination: river meadows, forested slopes and the [Orkhon Valley Cultural Landscape](https://en.wikipedia.org/wiki/Orkhon_Valley), a UNESCO World Heritage Site recognised for representing more than two millennia of nomadic pastoral tradition. Riding through a landscape inscribed precisely for its herding culture, past herders doing the same, is a special thing. See our guide to [the Orkhon Valley and Karakorum](/posts/orkhon-valley-karakorum/) for what else is there.
+**Where?** The Orkhon Valley in central Mongolia is a classic first riding destination: river meadows, forested slopes and the Orkhon Valley Cultural Landscape, a UNESCO World Heritage Site whose [nomination file](https://whc.unesco.org/uploads/nominations/1081rev.pdf) describes grassland grazed by nomadic herders for the past two millennia. Riding through a landscape inscribed precisely for its herding culture, past herders doing the same, is a special thing. See our guide to [the Orkhon Valley and Karakorum](/posts/orkhon-valley-karakorum/) for what else is there.
 
 ## A day on the trail
 
